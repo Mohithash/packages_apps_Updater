@@ -43,23 +43,23 @@ android_app {
     },
 
     required: [
-        "privapp_whitelist_com.voltage.updater",
-        "default-permissions_com.voltage.updater"
+        "privapp_whitelist_com.bestrom.updater",
+        "default-permissions_com.bestrom.updater"
     ],
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_com.voltage.updater",
+    name: "privapp_whitelist_com.bestrom.updater",
     system_ext_specific: true,
     sub_dir: "permissions",
-    src: "privapp_whitelist_com.voltage.updater.xml",
+    src: "privapp_whitelist_com.bestrom.updater.xml",
     filename_from_src: true,
 }
 
 prebuilt_etc {
-    name: "default-permissions_com.voltage.updater",
+    name: "default-permissions_com.bestrom.updater",
     system_ext_specific: true,
     sub_dir: "default-permissions",
-    src: "default-permissions_com.voltage.updater.xml",
+    src: "default-permissions_com.bestrom.updater.xml",
     filename_from_src: true,
 }

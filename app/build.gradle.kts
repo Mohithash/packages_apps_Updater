@@ -31,10 +31,10 @@ val keystoreProperties = Properties().apply {
 
 android {
     compileSdk = 34
-    namespace = "com.voltage.updater"
+    namespace = "com.bestrom.updater"
 
     defaultConfig {
-        applicationId = "com.voltage.updater"
+        applicationId = "com.bestrom.updater"
         minSdk = 30
         targetSdk = 34
         versionCode = 1
