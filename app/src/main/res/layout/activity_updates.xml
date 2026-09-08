@@ -66,7 +66,7 @@
                     android:paddingBottom="16dp"
                     android:textColor="?android:attr/textColorPrimary"
                     android:textSize="56sp"
-                    tools:text="VoltageOS"/>
+                    tools:text="BestROM"/>
 
                 <TextView
                     android:id="@+id/header_build_version"
